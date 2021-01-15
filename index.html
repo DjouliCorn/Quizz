@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+
+    <title>Quiz général</title>
+</head>
+
+<body>
+
+    <h1>🦁 Quiz animalier 🐰</h1>
+
+    <form id="quiz">
+
+        <div id="q1" class="toto">
+            <p>Quel est l'animal le plus rapide au monde, au sol :
+            <ul>
+                <li>
+                    <input type="radio" name="q1" value="1">
+                    <label for="choix1">Le lièvre</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q1" value="2">
+                    <label for="choix2">L'autruche</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q1" value="3">
+                    <label for="choix3">Le guépard</label>
+                </li>
+
+                <input type="radio" name="r1" value="3" checked hidden>
+            </ul>
+            </p>
+        </div>
+
+        <div id="q2" class="">
+            <p>Quel animal est le plus dangereux au monde :
+            <ul>
+                <li>
+                    <input type="radio" name="q2" value="4">
+                    <label for="choix4">Le dragon du Komodo</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q2" value="5">
+                    <label for="choix5">Le cobra</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q2" value="6">
+                    <label for="choix6">Le moustique</label>
+                </li>
+
+                <input type="radio" name="r2" value="6" checked hidden>
+
+            </ul>
+            </p>
+        </div>
+
+        <div id="q3" class="">
+            <p>Quel est l'animal qui possède le temps de gestation le plus long :
+            <ul>
+                <li>
+                    <input type="radio" name="q3" value="7">
+                    <label for="choix7">La girafe</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q3" value="8">
+                    <label for="choix8">L'éléphant</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q3" value="9">
+                    <label for="choix9">Le requin</label>
+                </li>
+
+                <input type="radio" name="r4" value="8" checked hidden>
+
+            </ul>
+            </p>
+        </div>
+
+        <div id="q4" class="">
+            <p>Quel est l'animal le plus grand du monde :
+            <ul>
+                <li>
+                    <input type="radio" name="q4" value="10">
+                    <label for="choix10">La baleine bleue</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q4" value="11">
+                    <label for="choix11">Le boa constrictor</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q4" value="12">
+                    <label for="choix12">L'éléphant</label>
+                </li>
+
+                <input type="radio" name="r4" value="10" checked hidden>
+
+            </ul>
+            </p>
+        </div>
+
+        <div id="q5" class="">
+            <p>Quel est animal qui dort le plus au monde  :
+            <ul>
+                <li>
+                    <input type="radio" name="q5" value="13">
+                    <label for="choix13">Le paresseux</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q5" value="14">
+                    <label for="choix14">Le koala</label>
+                </li>
+
+                <li>
+                    <input type="radio" name="q5" value="15">
+                    <label for="choix15">Le tatou géant</label>
+                </li>
+
+                <input type="radio" name="r5" value="14" checked hidden>
+
+            </ul>
+            </p>
+        </div>
+
+        <button type="button" onclick="getValue()">Vérifier</button>
+
+    </form>
+    <div id="messageAlert"></div>
+</body>
+
+<script type="text/JavaScript" src="scriptQuizz.js"></script>
+
+</html>
