@@ -26,8 +26,6 @@ function getValue() {
         //Comparaison de ce que l'utilisateur a choisi avec les réponses attendues
         if(value == result){
 
-            console.log(concatQ);
-
             document.getElementById(concatQ).style.backgroundColor = '#96d896';
             document.querySelector(concatHq).classList.add("success");
             //Appelle de la fonction remove après une seconde
